@@ -1,0 +1,44 @@
+.fixed-top{
+    background-color:#000 !important;
+}
+#img1, #img2, #img3, #oculta1, #oculta2, #oculta3{
+    display: none;
+}
+.carousel-item{
+  height: 60vh;
+  min-height: 250px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+body{
+    background-color:#F0F2F9;
+}
+.btn-grupo{
+    position: absolute;
+    top:10px;
+    left:30px;
+    width: 150px;
+}
+.btn-grupo button{
+    border-radius: 50%;
+    width:25px;
+    height:25px;
+}
+.btn-grupo h6{
+    position: absolute;
+    top:0px;
+}
+.colors-car img{
+    box-shadow: 13px 8px 5px -1px rgba(212,227,242,0.54);
+    -webkit-box-shadow: 13px 8px 5px -1px rgba(212,227,242,0.54);   
+    -moz-box-shadow: 13px 8px 5px -1px rgba(212,227,242,0.54);
+}
+h1{
+    font-family: 'Abril Fatface', cursive;
+}
+.py-5{
+  background-color: #000 !important;
+}

@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="es">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Se trata de una pagina web que tiene como objeto primordial la musica como objeto de inspiracion" />
+    <meta name="keyworkds" content="Musica, Cantantes, Videos, Galeria, Fotos, Noticias" /> 
+    <meta name="author" content="Cristal Gaviria" />
+    <title>Reload Music</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+
+    <!-- Estilos personalizados para esta plantilla -->
+    <link href="css/estilos.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="css/flexslider.css">
+    <link rel="stylesheet" type="text/css" href="css/font-icon.css">
+    <link rel="stylesheet" type="text/css" href="css/jquery.fancybox.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="imagen/logo.png" type="image/x-png">
+
+  </head>
+
+  <body>
+   <!-- Carousel -->
+    <header>
+       <!--Comienzo de Menu-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="imagen/logo1.png" width="35px" alt="Logo" class="align-top">
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                <a data-scroll class="nav-link" href="#">Home
+                  <span class="sr-only">(current)</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a data-scroll class="nav-link" href="#intro">Intro</a>
+              </li>
+              <li class="nav-item">
+                <a data-scroll class="nav-link" href="#frases">Frases</a>
+              </li>
+              <li class="nav-item">
+                <a data-scroll class="nav-link" href="#noticias">Noticias</a>
+              </li>
+              <li class="nav-item">
+                <a data-scroll class="nav-link" href="#videos">Videos</a>
+              </li>
+              <li class="nav-item">
+                <a data-scroll class="nav-link" href="#galeria">Galeria</a>
+              </li>
+              <li class="nav-item">
+                <a data-scroll class="nav-link" href="#contacto">Contacto</a>
+              </li>
+              <li>
+                <a href="#"></a>
+              </li>
+            </ul>
+          </div> 
+        </div>
+      </nav>
+      <!--Final de Menu-->
+    <div class="carousel-header">
+        
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+          <!-- Diapositiva 1: establece la imagen de fondo para esta diapositiva en la línea siguiente -->
+          <div class="carousel-item active" style="background-image: url('imagen/imagen1.jpg')">
+            <div class="carousel-caption d-none d-md-block"></div>
+          </div>
+          <!-- Diapositiva dos: establece la imagen de fondo para esta diapositiva en la línea siguiente -->
+          <div class="carousel-item" style="background-image: url('imagen/imagen2.jpg')">
+            <div class="carousel-caption d-none d-md-block"></div>
+          </div>
+          <!-- Diapositiva tres: establece la imagen de fondo para esta diapositiva en la línea siguiente -->
+          <div class="carousel-item" style="background-image: url('imagen/imagen4.jpg')">
+             <div class="carousel-caption d-none d-md-block"></div>
+           </div>
+          <!-- Diapositiva quinta: establece la imagen de fondo para esta diapositiva en la línea siguiente -->
+          <div class="carousel-item" style="background-image: url('imagen/imagen5.jpg')">
+             <div class="carousel-caption d-none d-md-block"></div>
+           </div>
+          <!-- Diapositiva sexta: establece la imagen de fondo para esta diapositiva en la línea siguiente -->
+          <div class="carousel-item" style="background-image: url('imagen/imagen6.jpg')">
+             <div class="carousel-caption d-none d-md-block"></div>
+           </div>
+          <!-- Diapositiva septima: establece la imagen de fondo para esta diapositiva en la línea siguiente -->
+          <div class="carousel-item" style="background-image: url('imagen/imagen7.jpg')">
+             <div class="carousel-caption d-none d-md-block"></div>
+           </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Siguiente</span>
+        </a>
+      </div>
+    </div>
+    </header>
+    <!-- Fin del carousel -->
+    <section id="intro" class="intro">
+      <div class="container-fluid p-5"
+        <div class="row no-gutter">
+          <div class="flexslider">
+            <ul class="slides">
+              <li>
+                <div id="izquierda" class="col-md-6">
+                  <div class="avatar"> <img src="imagen/1.gif" alt="" class="img-responsive"> </div>
+                </div>
+                <div id="derecha" class="col-md-6">
+                  <h1 class="text-center">Intro</h1>
+                  <p class="text-justify">Esta página web tiene la finalidad de mostrar los conocimientos adquiridos en el curso de 4Geeks Academy. El concepto básico de la web esta enfoncado en la música como objeto principal de motivación ante la vida. El contenido de la misma mostrara noticias, música, videos y galería de imágenes de algunas agrupaciones seleccionadas que han sido influenciadores en el desarrollo de nuestras vidas.</p>
+                </div>
+              </li>
+              <li>
+                <div id="izquierda" class="col-md-6">
+                  <div class="avatar"> <img src="imagen/4.gif" alt="" class="img-responsive"> </div>
+                </div>
+                <div id="derecha" class="col-md-6">
+                  <h1 class="text-center">Motivación</h1>
+                  <p class="text-justify">Esta página web tiene la finalidad de mostrar los conocimientos adquiridos en el curso de 4Geeks Academy. El concepto básico de la web esta enfoncado en la música como objeto principal de motivación ante la vida. El contenido de la misma mostrara noticias, música, videos y galería de imágenes de algunas agrupaciones seleccionadas que han sido influenciadores en el desarrollo de nuestras vidas.</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+  <!-- about section --> 
+    <!-- Testimonials section -->
+     <section id="frases" class="frases no-padding">
+      <div class="container-fluid">
+        <div class="row no-gutter">
+          <div class="flexslider">
+            <ul class="slides">
+              <li>
+                <div class="col-md-12">
+                  <blockquote>
+                    <h1>"La música es sinónimo de libertad, de tocar lo que quieras y como quieras, siempre que sea bueno y tenga pasión, que la música sea el alimento del amor." </h1>
+                    <p>Kurt Cobain</p>
+                  </blockquote>
+                </div>
+              </li>
+              <li>
+                <div class="col-md-12">
+                  <blockquote>
+                    <h1>"Quiero hacer una música tan perfecta que se filtre a través del cuerpo y sea capaz de curar cualquier enfermedad." </h1>
+                    <p>Jimi Hendrix.</p>
+                  </blockquote>
+                </div>
+              </li>
+              <li>
+                <div class="col-md-12">
+                  <blockquote>
+                    <h1>"Muéstrate a ti mismo tu más profundo miedo; después de eso, el miedo no tendrá poder y serás libre." </h1>
+                    <p>Jim Morrison</p>
+                  </blockquote>
+                </div>
+              </li>
+              <li>
+                <div class="col-md-12">
+                  <blockquote>
+                    <h1>"Nunca te doblegues al primer fracaso, ni al primer comentario que te hagan porque más que te derrumben un sueño, te lo derrumbas tú mismo." </h1>
+                    <p>Elvis Presley</p>
+                  </blockquote>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Testimonials section -->
+
+    <!--Inicio de section Noticias-->
+    <section id="noticias" class="noticias">
+    <div class="container pt-4 pb-4">
+      <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item mb-3 active">
+        
+                <div class="row">
+                  <div class="col-12">
+                    <h2 class="text-center display-4">Noticias</h2>
+                    <p class="h5 text-right p-2" cite="Cristal Gaviria">
+                      Entérate de las noticias más relevantes de los artistas que se encuentran en el top de los más escuchados.
+                    </p>
+                  </br>
+                  <div class="card-deck">
+                    <div class="card">
+                      <img id="img1" class="card-img-top" src="imagen/2.gif" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title">Yeah Yeah Yeahs</h5>
+                          <p class="card-text text-justify">Después de dos años de descanso, vuelven a los escenarios. El año pasado participaron en un concierto en el Festival de Cine de Tribeca en Nueva York. Por los momentos la agrupación y la maternidad se encuentran balanceados.</p>
+                        </div>
+                        <div class="card-footer">
+                          <button type="button" id="muestra1" class="btn btn-danger" onclick="mostrarImg1()">Learn more</button>
+                        </div>
+                    </div>
+                    <div class="card">
+                       <img id="img1" class="card-img-top" src="imagen/18.gif" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title">Justin Bieber</h5>
+                          <p class="card-text text-justify">El canadiense lanza su nuevo tema ‘Friends’, una aparente súplica a una exnovia para no terminar por completo. El tema es una colaboración con el productor BloodPop y los compositores Julia Michaels y Justin Tranter, el equipo detrás de su éxito ‘Sorry’, del álbum de 2015 ‘Purpose’</p>
+                        </div>
+                        <div class="card-footer">
+                          <button type="button" id="muestra1" class="btn btn-danger" onclick="mostrarImg1()">Learn more</button>
+                        </div>    
+                    </div>
+                    <div class="card">
+                       <img id="img1" class="card-img-top" src="imagen/5.gif" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title">Incubus</h5>
+                          <p class="card-text text-justify">La agrupación Californiana ha confirmado presentaciones en Madrid y en Barcelona. Las entradas están disponibles desde este momento en la web de Live Nation. Los precios: 40€ más gastos de distribución y 1€ extra que irá destinado a la fundación de Incubus, The Make Yourself Foundation.</p>
+                        </div>
+                        <div class="card-footer">
+                          <button type="button" id="muestra1" class="btn btn-danger" onclick="mostrarImg1()">Learn more</button>
+                        </div>    
+                    </div>
+
+                 </div>
+            </div>
+        </div> 
+      </div> 
+        <div class="carousel-item mb-3">
+        <!--Segundo Item del Carousel-->
+          <div class="row">
+            <div class="col-12">
+              <h5 class="text-center display-4">Noticias</h5>
+                <p class="h5 text-right">
+                  Entérate de las noticias más relevantes de los artistas que se encuentran en el top de los más escuchados.
+                </p>
+            </br>
+            <div class="card-deck">
+              <div class="card">
+                <img id="img1" class="card-img-top" src="imagen/13.gif" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">Adele</h5>
+                    <p class="card-text text-justify">La cantante británica anuló los dos últimos conciertos de su gira mundial, el sábado y el domingo en el estadio de Wembley, en Londres, debido a una problema en las cuerdas vocales. Después de otros dos conciertos, el miércoles y el jueves también en Wembley ante unas 100.000 personas, puso fin a un tour de 123 fechas.</p>
+                  </div>
+                  <div class="card-footer">
+                    <button type="button" id="muestra1" class="btn btn-danger" onclick="mostrarImg1()">Learn more</button>
+                  </div>
+              </div>
+              <div class="card">
+                 <img id="img1" class="card-img-top" src="imagen/14.gif" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">Mac Miller</h5>
+                    <p class="card-text text-justify">A sus 24 años el chico de Ariana ya tiene tres álbumes de estudio y un sinfín de mixtapes publicados en el mercado. A los 18 firmó su primer contrato discográfico con el sello independiente Rostrum Records y en 2014 fue fichado por la multinacional Warner Bros por 10 millones de dólares.</p>
+                  </div>
+                  <div class="card-footer">
+                    <button type="button" id="muestra1" class="btn btn-danger" onclick="mostrarImg1()">Learn more</button>
+                  </div>    
+              </div>
+              <div class="card">
+                 <img id="img1" class="card-img-top" src="imagen/20.gif" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">Red Hot Chili Peppers</h5>
+                    <p class="card-text text-justify">La banda californiana, Pearl Jam y The Killers son las grandes cabezas de cartel de un Lollapalooza Brasil que este año cuenta con más de 70 atracciones y una jornada adicional de espectáculos que completarán Imagine Dragons, Lana del Rey y Wiz Khalifa, entre otros.</p>
+                  </div>
+                  <div class="card-footer">
+                    <button type="button" id="muestra1" class="btn btn-danger" onclick="mostrarImg1()">Learn more</button>
+                  </div>    
+              </div>
+            </div>
+            </div>
+          </div> 
+        </div> 
+    </div>
+  </div>
+</div>
+</section>
+ <!--Fin de section Noticias-->
+</br>
+
+    <!--Inicio de section Videos-->
+    <section id="videos" class="video p-3">
+      <h2 class="text-center display-4"><strong>Vídeos</strong></h2>
+      <div class="container container-video p-2 pt-4">
+      <div class="row">
+        <div class="col-12">
+          <p class=" h5 text-right pb-3">Esta sección está dedicada a los vídeos  más escuchados de varios artistas.</p>
+        </div>
+      </div>
+        <div class="row">
+          <div class="col-6">
+            <div class="texto-video">
+              <h4>Mac Miller - Live Free</h4>
+            </div>
+            <div class="video-macmiller embed-responsive embed-responsive-16by9">
+              <param name="wmode" value="opaque"><video class="img-fluid" width="396" height="296" poster="imagen/video1.gif" autobuffer controls preload="none" wmode="opaque">
+                <source src="video/mac.miller.live.free.mp4" type="video/mp4" allowfullscreen>
+              </video>
+            </div>
+          </div>
+          <div class="col-6">
+            <h4>Evanescence - My inmortal</h4>
+            <div class="video-evanescence embed-responsive embed-responsive-16by9">
+               <video class="img-fluid" poster="imagen/video2.gif" autobuffer controls preload="none">
+                <source src="video/evanescence.my.inmortal.mp4" type="video/mp4" allowfullscreen>
+              </video>
+            </div>
+          </div>
+        </div>
+      </br>
+        <div class="row">
+          <div class="col-6">
+            <h4>Bjork - Oceania</h4>
+            <div class="video-bjork embed-responsive embed-responsive-16by9">
+              <video class="img-fluid" poster="imagen/video3.gif" autobuffer controls preload="none">
+                <source src="video/bjork.oceania.mp4" type="video/mp4" allowfullscreen>
+              </video>
+            </div>
+          </div>
+          <div class="col-6">
+            <h4>The Pixies - Where is my mind</h4>
+            <div class="video-pixies embed-responsive embed-responsive-16by9">
+               <video class="img-fluid" poster="imagen/video4.gif" autobuffer controls preload="none">
+                <source src="video/pixies.where.is.my.mind.mp4" type="video/mp4" allowfullscreen>
+              </video>
+            </div>
+            <button type="button" class="btn btn-danger btn-video">Show more</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Fin de section de Videos-->
+    <section id="galeria" class="galeria">
+      <h2 class="text-center display-4 mt-5 mb-5">Galería de Imágenes</h2>
+        <div class="container-fluid">
+          <div class="row no-gutter">
+            <div class="col-md-4 col-sm-4 galeria"> <a href="imagen/galeria1.jpg" class="galeria-box img-fluid"><img src="imagen/galeria1.jpg" alt="">
+              <div class="overlay">
+                <div class="overlay-caption">
+                  <p><span class="icon icon-magnifying-glass"></span></p>
+                </div>
+              </div>
+              <!-- overlay --> 
+              </a> 
+            </div>
+            <div class="col-md-4 col-sm-4 galeria"> <a href="imagen/galeria2.jpg" class="galeria-box img-fluid"> <img src="imagen/galeria2.jpg" alt="">
+              <div class="overlay">
+                <div class="overlay-caption">
+                  <p><span class="icon icon-magnifying-glass"></span></p>
+                </div>
+              </div>
+              <!-- overlay --> 
+              </a> </div> 
+             <div class="col-md-4 col-sm-4 galeria"> <a href="imagen/galeria3.gif" class="galeria-box img-fluid"> <img src="imagen/galeria3.gif" alt="">
+              <div class="overlay">
+                <div class="overlay-caption">
+                  <p><span class="icon icon-magnifying-glass"></span></p>
+                </div>
+              </div>
+              <!-- overlay --> 
+              </a> </div>
+            <div class="col-md-4 col-sm-4 galeria"> <a href="imagen/galeria4.jpg" class="galeria-box img-fluid"> <img src="imagen/galeria4.jpg" alt="">
+              <div class="overlay">
+                <div class="overlay-caption">
+                  <p><span class="icon icon-magnifying-glass"></span></p>
+                </div>
+              </div>
+              <!-- overlay --> 
+              </a> </div> 
+             <div class="col-md-4 col-sm-4 galeria"> <a href="imagen/galeria5.jpg" class="galeria-box img-fluid"> <img src="imagen/galeria5.jpg" alt="">
+              <div class="overlay">
+                <div class="overlay-caption">
+                  <p><span class="icon icon-magnifying-glass"></span></p>
+                </div>
+              </div>
+              <!-- overlay --> 
+              </a> </div> 
+            <div class="col-md-4 col-sm-4 galeria"> <a href="imagen/galeria6.jpg" class="galeria-box img-fluid"> <img src="imagen/galeria6.jpg" alt="">
+              <div class="overlay">
+                <div class="overlay-caption">
+                  <p><span class="icon icon-magnifying-glass"></span></p>
+                </div>
+              </div>
+              <!-- overlay --> 
+              </a> </div> 
+             <div class="col-md-4 col-sm-4 galeria"> <a href="imagen/galeria7.jpg" class="galeria-box img-fluid"> <img src="imagen/galeria7.jpg" alt="">
+              <div class="overlay">
+                <div class="overlay-caption">
+                  <p><span class="icon icon-magnifying-glass"></span></p>
+                </div>
+              </div>
+              <!-- overlay --> 
+              </a> </div>
+            <div class="col-md-4 col-sm-4 galeria"> <a href="imagen/galeria8.jpg" class="galeria-box img-fluid"> <img src="imagen/galeria8.jpg" alt="">
+              <div class="overlay">
+                <div class="overlay-caption">
+                  <p><span class="icon icon-magnifying-glass"></span></p>
+                </div>
+              </div>
+              <!-- overlay --> 
+              </a> </div>
+            <div class="col-md-4 col-sm-4 galeria"> <a href="imagen/galeria9.jpg" class="galeria-box img-fluid"> <img src="imagen/galeria9.jpg" alt="">
+              <div class="overlay">
+                <div class="overlay-caption">
+                  <p><span class="icon icon-magnifying-glass"></span></p>
+                </div>
+              </div>
+              <!-- overlay --> 
+              </a> </div> 
+            <div class="col-md-4 col-sm-4 galeria"> <a href="imagen/galeria16.jpg" class="galeria-box img-fluid"> <img src="imagen/galeria16.jpg" alt="">
+              <div class="overlay">
+                <div class="overlay-caption">
+                  <p><span class="icon icon-magnifying-glass"></span></p>
+                </div>
+              </div>
+              <!-- overlay --> 
+              </a> </div> 
+             <div class="col-md-4 col-sm-4 galeria"> <a href="imagen/galeria.gif" class="galeria-box img-fluid"> <img src="imagen/galeria.gif" alt="">
+              <div class="overlay">
+                <div class="overlay-caption">
+                  <p><span class="icon icon-magnifying-glass"></span></p>
+                </div>
+              </div>
+              <!-- overlay --> 
+              </a> </div> 
+             <div class="col-md-4 col-sm-4 galeria"> <a href="imagen/galeria17.png" class="galeria-box img-fluid"> <img src="imagen/galeria17.png" alt="">
+              <div class="overlay">
+                <div class="overlay-caption">
+                  <p><span class="icon icon-magnifying-glass"></span></p>
+                </div>
+              </div>
+              <!-- overlay --> 
+              </a> </div> 
+          </div>
+        </div>
+    </section>
+    <!--Final de Section Galeria-->
+   
+<!-- Contacto Section --> 
+    <section id="contacto" class="contacto pt-5 pb-4">
+      <div class="container-header">
+        <h2 class="text-center display-4 pb-4"><strong>Contacto</strong></h2>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <p class="h5 text-right mb-4">Si quieres recibir las ultimas noticias de tus artistas favoritos o déjanos un comentario de tu experiencia. <span><strong>¡¡Suscríbete!!</strong></span></p>
+          </div>
+          <div class="col-6">
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+              <div class="carousel-inner">
+                <div id="imagen1" class="carousel-item active">
+                  <img class="d-block w-100 img-fluid" src="imagen/contacto1.gif" alt="First slide">
+                </div>
+                <div id="imagen2" class="carousel-item">
+                  <img class="d-block w-100 img-fluid" src="imagen/contacto2.gif" alt="Second slide">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-6">
+            <div id="msj"></div>
+            <form action="" method="post" class="form-register" class="form-register" onsubmit="return validar();">
+              <h2 class="form__titulo">Subscribe Here</h2>
+              <div class="contenedor-inputs" >
+                <input type="text" id="nombre" name="nombre" placeholder="Nombre" class="input-48">
+                <input type="text" id="apellidos" name="apellidos" placeholder="Apellidos" class="input-48">
+                <input type="text" id="correo" name="correo" placeholder="Correo" class="input-100">
+                <input type="text" id="comentario" name="comentario" placeholder="Comentario" class="input-100">
+                
+                <input type="submit" value="Enviar" class="btn-enviar">
+                <p class="form__link">Deja tu comentario <a href="#">Ingresar aquí</a></p>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>      
+       
+</section>
+
+    <!-- Footer section -->
+    <footer class="footer bg-dark">
+      <div class="footer-top">
+        <div class="container">
+          <div class="row">
+            <div class="footer-col col-md-6">
+              <h5>Our Office Ubication</h5>
+              <p>San Antonio de Los Altos, Estado Miranda. Caracas - Venezuela.<br>
+                Reloud Music Company</p>
+              <p>Copyright © 2018 Reloud Music Company. All Rights Reserved. Made with <i class="fa fa-heart pulse"></i> by <a href="#">Cristal Gaviria</a></p>
+              <p><audio controls autoplay preload="preload" id="reproductor" loop="loop" width="5%" height="5%" src="musica/Iggy Azalea - Work (Explicit).mp3"></audio></p>
+            </div>
+            <div class="footer-col col-md-3">
+              <h5 class="text-justify">Services</h5>
+              <p>
+              <ul>
+                <li><a href="#">Digital Strategy</a></li>
+                <li><a href="#">Websites</a></li>
+                <li><a href="#">Videography</a></li>
+                <li><a href="#">Social Media</a></li>
+                <li><a href="#">User Experience</a></li>
+              </ul>
+              </p>
+            </div>
+            <div class="footer-col col-md-3">
+              <h5>Share with Love</h5>
+              <ul class="footer-share">
+                <li><a href="https://www.facebook.com/EvaCristinaBracho" target="blank"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="#" target="blank"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="#" target="blank"><i class="fa fa-linkedin"></i></a></li>
+                <li><a href="#" target="blank"><i class="fa fa-google-plus"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- footer top --> 
+    </footer>
+      
+    <!-- Jquery -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <!-- Popper -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> 
+    <script src="js/smooth-scroll.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/bootstrap.min.js"></script> 
+    <script src="js/jquery.flexslider.js"></script>
+    <script src="js/jquery.fancybox.pack.js"></script> 
+    <!--<script src="js/retina.min.js"></script> 
+    <script src="js/modernizr.js"></script>-->
+    <script src="js/Javascript.js"></script>
+  </body>
+</html>
